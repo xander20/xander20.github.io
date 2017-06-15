@@ -25,7 +25,7 @@
 }
 .demo-card-square > .mdl-card__title {
    background:
-    url('../assets/demos/dog.png') bottom right 15% no-repeat #84FFFF;
+    url('../assets/demos/dog.png') bottom right 15% no-repeat #46B6AC;
 }
 </style>
 	</head>
@@ -36,7 +36,7 @@
 .demo-layout-transparent .mdl-layout__drawer-button {
   /* This background is dark, so we set text to white. Use 87% black instead if
      your background is light. */
-  color: #EEFF41;
+  color: black;
 }
 </style>
    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
@@ -57,32 +57,5 @@
                 </nav>
             </div>
         </header>
-        <br><br><br><br><br>
-          <button id="show-dialog" type="button" class="mdl-button">Click Here!!!</button>
-  <dialog class="mdl-dialog">
-    <h4 class="mdl-dialog__title">Hey There!!!</h4>
-    <div class="mdl-dialog__content">
-      <p>
-        Something Awesome Coming Soon!!!
-      </p>
-    </div>
-    </dialog>
-  <script>
-    var dialog = document.querySelector('dialog');
-    var showDialogButton = document.querySelector('#show-dialog');
-    if (! dialog.showModal) {
-      dialogPolyfill.registerDialog(dialog);
-    }
-    showDialogButton.addEventListener('click', function() {
-      dialog.showModal();
-    });
-    dialog.querySelector('.close').addEventListener('click', function() {
-      dialog.close();
-    });
-  </script>
-
-</body>
-
- 
-      	</body>
+        </body>
 </html>
