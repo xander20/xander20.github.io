@@ -1,11 +1,8 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-	<head>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-		<link rel="stylesheet" href="styles.css">
-		<title>SiddharthShekar</title>
-		 <meta charset='utf-8'>
-      <script type="text/javascript" src="http://ff.kis.v2.scr.kaspersky-labs.com/B69353F9-5F41-6244-B17E-AC77314BE215/main.js" charset="UTF-8"></script><script src="https://use.fontawesome.com/ea2111870d.js"></script>
+  <head>
+    <meta charset='utf-8'>
+      <script src="https://use.fontawesome.com/ea2111870d.js"></script>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
@@ -14,79 +11,115 @@
 
       <!-- Latest compiled JavaScript -->
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-		  <!-- mdl libraries -->
-		  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-		  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
-		  <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
-		     <style>
-.demo-card-square.mdl-card {
-  width: 320px;
-  height: 320px;
-}
-.demo-card-square > .mdl-card__title {
-   background: 
-    url('../assets/demos/dog.png') bottom right 15% no-repeat #84FFFF;
-}
-</style>
-	</head>
-	<body>
-		<!-- Uses a transparent header that draws on top of the layout's background -->
-<style>
-.demo-layout-transparent .mdl-layout__header,
-.demo-layout-transparent .mdl-layout__drawer-button {
-  /* This background is dark, so we set text to white. Use 87% black instead if
-     your background is light. */
-  color: #EEFF41;
-}
-</style>
-<div class="container-fluid">
-   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-        <header class="mdl-layout__header mdl-layout__header--waterfall portfolio-header">
-            <div class="mdl-layout__header-row portfolio-logo-row">
-                <span class="mdl-layout__title">
-                    <div class="portfolio-logo"></div>
-                    <span class="mdl-layout__title">Siddharth Shekar's Website</span>
-                </span>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <script src="bower_components/typed.js/js/typed.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function(){
+      Typed.new('.element', {
+          contentType: 'html',
+          strings: ["Hey There!! <br/> ^1000 This is Siddharth Shekar"],
+          typeSpeed: 10,
+          cursorChar: "",
+      });
+  });
+</script>
+
+
+    <title>Siddharth Shekar</title>
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <h1 align="left">aboutme</h1>
+        <h2></h2>
+
+        <section id="downloads">
+            <!--<a href="https://github.com/skprabhanjan/aboutme/raw/gh-pages/titles.pdf" download style="color:whitesmoke;" class="btn"> Download PDF with Titles </a> (Dont mind my worst titles!!)<br/><br/>-->
+            <!--<a href="https://github.com/skprabhanjan/aboutme/raw/gh-pages/ashu.pdf" download style="color:wheat;" class="btn"> Download PDF without Titles</a>(I know you would prefer this!!!) <br/><br/>-->
+            <!--<a href="https://github.com/skprabhanjan/aboutme/raw/gh-pages/special.pdf" download style="color:red;" class="btn">Download This Special File <span class="glyphicon glyphicon-heart" aria-hidden="true"></span> </span></a> (U know what this is!!)-->
+            <!--<a href="https://github.com/skprabhanjan/aboutme/zipball/master" class="btn">Download as .zip</a>-->
+            <!--<a href="https://github.com/skprabhanjan/aboutme/tarball/master" class="btn">Download as .tar.gz</a>-->
+            <!--<a href="https://github.com/skprabhanjan/aboutme" class="btn btn-github"><span class="icon"></span>View on GitHub</a>-->
+        </section>
+      </div>
+    </header>
+
+
+    <div class="container">
+      <section id="main_content">
+        <h1 align="center" class="element"></h1><br/>
+        <div id="myData">
+            <div class="demo-card-wide mdl-card mdl-shadow--6dp">
+                <div class="welcome"></div>
+                <div class="mdl-card__supporting-text">
+                    <label><b style="color:#263238;">Name:</b> Siddharth Chandra Shekar</label><br/>
+                    <label><b style="color:#263238;">Contact:</b> +919483972708 </label><br/>
+                    <label><b style="color:#263238;">College:</b> RNS Institute of Technology</label><br/>
+                    <label><b style="color:#263238;">Currently Studying:</b> BE, 6th semester in Mechanical Engineering </label><br/>
+                    <label><b style="color:#263238;">Agrigate:</b> 65%</label><br/>
+                </div>
+                <div class="mdl-card__actions mdl-card--border">
+                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" style="cursor: pointer;" onclick="showMore()">
+                        Learn More
+                    </a>
+                </div>
             </div>
-            <div class="mdl-layout__header-row portfolio-navigation-row mdl-layout--large-screen-only">
-                <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
-                    <a class="mdl-navigation__link is-active" href="index.html">Portfolio</a>
-                    <a class="mdl-navigation__link" href="blog.html">Blog</a>
-                    <a class="mdl-navigation__link" href="internships.html">Internships</a>
-                    <a class="mdl-navigation__link" href="about.html">About</a>
-                    <a class="mdl-navigation__link" href="contact.html">Contact</a>
-                </nav>
+            <br/><br/>
+
+            <div class="demo-card-wide mdl-card mdl-shadow--6dp" style="display: none" id="details">
+                <div class="showMore"></div>
+                <div class="mdl-card__supporting-text">
+                    <label><b style="color:#263238;"> About me:</b>
+                         I am an Engineering Student who is always open to learning new things and reading about the technological advancements in all fields. I'm a people person and i'm always looking for new challenges that help me become a better Engineer and also a better person. 
+                        </label><br/><br/>
+                    <label><b style="color:#263238;"> Passion: </b> Very passionate about the Aerospace and  Aeronautics Industry. I'm fascinated about the far ends of the Universe and the secrets that they hold. SpaceX founder Elon Musk is my Inspiration and Role Model. I would be completely honored to make any contribution towards the advancement of this industy.(in however small or big way possible)</label> <br/><br/>
+                    <label><b style="color:#263238;">Coding expertise: </b> C</label><br/><br/>
+                    <label><b style="color:#263238;">Web development expertise: </b> Html, Bootstrap, MDL</label><br/><br/>
+                    <label><b style="color:#263238;">Drawing and Design: </b> AutoCad, Solid Edge</label><br/><br/>
+                    <label><b style="color:#263238;">Design and Modeling: </b> Solid Works</label><br/><br/>
+                    <label><b style="color:#263238;">Design Analysis : </b> Ansys</label><br/><br/>
+                    <label><b style="color:#263238;">Areas of Interest: </b> Aerospace Sector, Aeronautical Sector, Public and Private Aviation Industries, R&D</label><br/><br/>
+                    
+                </div>
+                <div class="mdl-card__actions mdl-card--border">
+                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" style="cursor: pointer;" onclick="showLess()">
+                        Hide Details
+                    </a>
+                </div>
+            </div> <br/><br/>
+            <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+                <div class="links"></div>
+                <div class="mdl-card__supporting-text">
+                    <li><a href="https://www.facebook.com/SidShekar" target="_blank" class="icons-sm fb-ic"><i class="fa fa-facebook"></i> Facebook</a></li>
+                    <li><a class="icons-sm email-ic"><i class="fa fa-envelope-o"> </i> siddharth.1rn14me024@gmail.com</a></li> <br/>
+                    <a href="https://github.com/skprabhanjan/aboutme/raw/gh-pages/Resume.pdf"  download class="mdl-button mdl-js-button"> Download My Resume </a><br/><br/>
+                    <label style="color:#2979FF;"><b><i> Please find detailed description of my projects and skills in my CV,available for download here </label><br/><br/>
+                </div>
+                <!--<div class="mdl-card__actions mdl-card&#45;&#45;border">-->
+                    <!--<a class="mdl-button mdl-button&#45;&#45;colored mdl-js-button mdl-js-ripple-effect">-->
+                        <!--View Updates-->
+                    <!--</a>-->
+                <!--</div>-->
             </div>
-        </header>
-        <br><br><br><br><br>
-          <button id="show-dialog" type="button" class="mdl-button">Click Here!!!</button>
-  <dialog class="mdl-dialog">
-    <h4 class="mdl-dialog__title">Hey There!!!</h4>
-    <div class="mdl-dialog__content">
-      <p>
-        Something Awesome Coming Soon!!!
-      </p>
+
+        </div>
+      </section>
     </div>
-    </dialog>
   <script>
-    var dialog = document.querySelector('dialog');
-    var showDialogButton = document.querySelector('#show-dialog');
-    if (! dialog.showModal) {
-      dialogPolyfill.registerDialog(dialog);
-    }
-    showDialogButton.addEventListener('click', function() {
-      dialog.showModal();
-    });
-    dialog.querySelector('.close').addEventListener('click', function() {
-      dialog.close();
-    });
+      function showMore() {
+          $('#details').show();
+      }
+      function showLess() {
+          $('#details').hide();
+      }
   </script>
-  <p> <a href="resume.pdf.pdf" download class="mdl-button mdl-js-button"> Click here</a>
-</div>
-</div>
-</body>
-
-
- 
-      	</body>
+  </body>
 </html>
